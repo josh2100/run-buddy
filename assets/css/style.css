@@ -44,6 +44,15 @@ header nav ul li a {
   font-size: 22px;
 }
 
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
 footer {
   background: #fce138;
   width: 100%;
@@ -69,6 +78,17 @@ footer h2 {
 
 section {
   padding: 60px;
+}
+
+/* form style */
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 /* Hero Style Start */
