@@ -50,6 +50,46 @@ header nav ul li a {
 }
 /* Header End */
 
+/* Page Title */
+.page-title {
+  color: #fce138;
+  display: inline-block;
+  border-bottom: 4px solid #fce138;
+  padding: 0 80px 15px 80px;
+  font-weight: normal;
+  font-size: 42px;
+  font-style: italic;
+}
+/* Page Title End */
+
+/* Privacy policy */
+.secondary-content {
+  width: 80%;
+  margin: 0 auto;
+  color: #024e76;
+}
+
+.secondary-content h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.secondary-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.secondary-content ul {
+  margin: 15px 20px;
+}
+
+.secondary-content li {
+  color: #39a6b2;
+  margin: 10px 0;
+}
+/* Privacy Policy End */
+
 /* Footer */
 footer {
   background: #fce138;
@@ -89,11 +129,10 @@ footer h2 {
 
 /* Hero */
 .hero {
-  background-image: url("../images/hero-bg.jpeg");
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  background-position: bottom;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .hero-form {
